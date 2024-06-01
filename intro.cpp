@@ -9,7 +9,10 @@ int sum(int a, int b){
 int main(){
     int a;
     a=sum(10,15);
-    cout<<"Sum = "<<a;
+    cout<<"Sum = "<<a<<endl;
+
+    cout<<"Hello World!"<<endl;
+    cout<<"Greetings Of The Day.";
     return 0;
 }
 
