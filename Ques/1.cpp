@@ -60,3 +60,44 @@
 //     cout<<get_candies<<endl<<left_candies;
 //     return 0;
 // }
+
+// Finding if the given number is odd or not
+// #include<iostream>
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int number;
+//     cin>>number;
+//     if(number%2!=0){
+//         cout<<1;
+//     }else{
+//         cout<<0;
+//     }
+//     return 0;
+// }
+
+// #include<iostream>
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int number;
+//     cin>>number;
+//     bool result=(number%2!=0);
+//     cout<<result;
+//     return 0;
+// }
+
+
+// If we are given m chocolates and there are n people, then can we divide these m chocolates into n people, such that each of them will get an equal number of chocolates and each person should get an integer number of chocolates?
+// Write a program for the above problem statement.
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;    
+int main(){
+    int chocolate;
+    int people;
+    cin>>chocolate>>people;
+    int result=chocolate/people;
+    cout<<result;
+    return 0;
+}
