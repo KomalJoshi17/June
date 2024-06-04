@@ -3,7 +3,7 @@
 using namespace std;
     
 int main(){
-    // int *ptr = new int;
+    // int *ptr = new int; IN HEAP
     // cout<<ptr<<endl;
     // *ptr = 10;
     // cout<<*ptr<<endl;
