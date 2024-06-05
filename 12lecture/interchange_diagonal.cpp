@@ -18,17 +18,24 @@ int main(){
         cout<<endl;
     }
 
-    cout<<"Left Diagonal"<<endl;
-    for(int i=0;i<r;i++){
-        cout<<arr[i][i]<<" ";
-    }
+    cout<<"Interchange";
     cout<<endl;
-
-    cout<<"Right Diagonal"<<endl;
     for(int i=0;i<r;i++){
         int j=r-i-1;
-        cout<<arr[i][j]<<" ";
+        int temp=arr[i][i];
+        arr[i][i]=arr[i][j];
+        arr[i][j]=temp;
+        
+        // arr[i][i];
+        // int j=r-i-1;
+        // arr[i][j];
+        // swap(arr[i][i],arr[i][j]);
     }
-    cout<<endl;
+    for(int i=0;i<r;i++){
+        for(int j=0;j<c;j++){
+            cout<<arr[i][j]<<" ";
+        }
+        cout<<endl;
+    }
     return 0;
 }

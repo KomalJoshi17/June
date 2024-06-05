@@ -18,7 +18,7 @@ int main(){
     int count=0;
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
-            if(i>j){
+            if(j>i){
                 if(arr[i][j]!=0){
                     count++;
                     break;
@@ -28,9 +28,9 @@ int main(){
         if(count==1) break;
     }
     if(count==0){
-        cout<<"Yes Upper";
+        cout<<"Yes Lower";
     }else{
-        cout<<"No Upper";
+        cout<<"No Lower";
     }
     return 0;
 }
