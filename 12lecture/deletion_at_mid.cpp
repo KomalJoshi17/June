@@ -1,32 +1,27 @@
-#include <iostream>
-
-int main() {
-  int arr[100]; // Array with a maximum size of 100
-  int n = 5;      // Current number of elements in the array (assuming initial values)
-
-  // Check if there are elements to delete
-  if (n == 0) {
-    std::cout << "Error: Array is empty!" << std::endl;
-    return 1;
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+  
+int main(){
+  int n;
+  cin>>n;
+  int pos;
+  cin>>pos;
+  int arr[n];
+  for (int i=0;i<n;i++){
+    cin>>arr[i];
   }
-
-  // Calculate the middle index (integer division for center position)
-  int mid = n / 2;
-
-  // Shift elements one position forward from middle to end (overwriting the element to be deleted)
-  for (int i = mid; i < n - 1; i++) {
-    arr[i] = arr[i + 1];
+  if(pos<=0||pos>n){
+    cout<<"Inavlid position";
+  }else{
+    for (int i=pos-1;i<n-1;i++){
+      arr[i]=arr[i+1];
+    }
+    n--;
   }
-
-  // Decrement the number of elements
-  n--;
-
-  // Print the modified array
-  std::cout << "Array after deletion: ";
-  for (int i = 0; i < n; i++) {
-    std::cout << arr[i] << " ";
+  for (int i=0;i<n;i++){
+    cout<<arr[i]<<" ";
   }
-  std::cout << std::endl;
-
+  cout<<endl;
   return 0;
 }
