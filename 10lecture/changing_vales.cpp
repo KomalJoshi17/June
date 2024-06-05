@@ -20,6 +20,6 @@ int main(){
     const int a = 10;
     const int *ptr_a = &a;
     const int * const ptr_b = &a;
-    ptr_b++; //not work
+    // ptr_b++; //not work
     return 0;
 }
