@@ -61,7 +61,7 @@ int main(){
     cout<<endl;
     //cin.ignore(); // resolved here
     string para;
-    getline(cin,para,',');
+    getline(cin,para,'\0');
     cout<<para;
     return 0;
 }
