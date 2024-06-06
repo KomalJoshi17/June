@@ -59,9 +59,9 @@ int main(){
     cin>>city;
     cout<<"City : "<<city;
     cout<<endl;
-    cin.ignore(); // resolved here
+    //cin.ignore(); // resolved here
     string para;
-    getline(cin,para);
+    getline(cin,para,',');
     cout<<para;
     return 0;
 }
