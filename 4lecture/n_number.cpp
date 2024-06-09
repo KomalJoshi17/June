@@ -9,6 +9,7 @@ int main(){
         cout<<i<<endl;
     }
     cout<<endl;
+    
     for (int i=number;i>=0;i--){
         cout<<i<<endl;
     }
