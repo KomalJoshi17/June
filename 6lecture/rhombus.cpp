@@ -13,6 +13,7 @@ int main(){
         for (int j=1;j<=space_count;j++){
             cout<<" ";
         }
+
         for (int j=1; j<=star_count;j++){
             cout<<"*";
         }
