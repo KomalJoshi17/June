@@ -3,7 +3,7 @@
 using namespace std;
     
 int main(){
-     // division by zero
+    //  division by zero
     // int a=10;
     // int b=a/0;
     // cout<<b;
