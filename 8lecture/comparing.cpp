@@ -18,11 +18,13 @@ int main(){
     // int br[5];
     // br = ar;
 
+// copying
     int ar[5] = {1,2,4,5,6};
     int br[5];
     for(int i = 0; i < 5; i++) {
         br[i] = ar[i];
     }
+    
     cout<<br[5+1];
     cout<<endl;
     cout<<ar[1];

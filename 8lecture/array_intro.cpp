@@ -39,9 +39,15 @@ int main(){
     // int n;
     // cin>>n;
     // int n_sized_array[n];
+    // for (int i=0;i<=n;i++){
+    //     cin>>n_sized_array[i];
+    // }
+    // for (int i=0;i<=n;i++){
+    //     cout<<n_sized_array[i];
+    // }
     // cout<<sizeof(n_sized_array);
 
-    int arr[] = {1,3,4};
-    cout<<sizeof(arr);
+    // int arr[] = {1,3,4};
+    // cout<<sizeof(arr);
     return 0;
 }

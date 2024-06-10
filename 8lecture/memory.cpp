@@ -1,7 +1,7 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-    
+
 int main(){
     // hexadecimal address of first element
     // char arr[10];

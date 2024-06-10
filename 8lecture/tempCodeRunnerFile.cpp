@@ -1,3 +1,2 @@
-for(int i = 0; i < 5; i++) {
-        br[i] = ar[i];
-    }
+int marks_array[120];
+    cout<<sizeof(marks_array);
