@@ -21,9 +21,9 @@ int main(){
     double *ptr3=&d;
     // cout<<d<<endl<<&d<<endl<<ptr3<<endl<<*ptr3;
 
-    cout<<sizeof(ptr)<<endl;
-    cout<<sizeof(ptr2)<<endl;
-    cout<<sizeof(ptr3)<<endl;
+    // cout<<sizeof(ptr)<<endl;
+    // cout<<sizeof(ptr2)<<endl;
+    // cout<<sizeof(ptr3)<<endl;
 
     int ** ptrPtr = &ptr;
     cout<<*ptrPtr<<endl;
