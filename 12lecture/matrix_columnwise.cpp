@@ -1,4 +1,9 @@
-int r,c;
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+    
+int main(){
+    int r,c;
     cin>>r>>c;
     int arr[r][c];
     for(int i=0;i<r;i++){
@@ -6,6 +11,7 @@ int r,c;
             cin>>arr[i][j];
         }
     }
+    
     for(int i=0;i<r;i++){
         int sum=0;
         for(int j=0;j<c;j++){
@@ -13,3 +19,5 @@ int r,c;
         }
         cout<<sum<<" ";
     }
+    return 0;
+}

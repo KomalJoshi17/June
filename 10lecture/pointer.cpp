@@ -25,6 +25,8 @@ int main(){
     // cout<<sizeof(ptr2)<<endl;
     // cout<<sizeof(ptr3)<<endl;
 
+    // int a=10;
+    // int *ptr=&a;
     int ** ptrPtr = &ptr;
     cout<<*ptrPtr<<endl;
     cout<<**ptrPtr<<endl;

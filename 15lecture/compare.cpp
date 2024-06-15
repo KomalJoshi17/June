@@ -19,6 +19,7 @@ int main(){
             break;
         }
     }
+    
     cout<<str1.compare(str2); //str1-str2
     return 0;
 }

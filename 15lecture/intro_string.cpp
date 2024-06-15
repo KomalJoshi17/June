@@ -35,7 +35,7 @@ int main(){
     // cout<<branch.size();
     // cout<<endl;
 
-    // if we gave space between it will compile before space only not after the cpace
+    // if we gave space between it will compile before space only not after the space
     // therefore use getline
     // string para;
     // getline(cin,para);
