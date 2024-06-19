@@ -42,7 +42,7 @@ int main(){
     // append
     cout<<str.append("Fraz");
     cout<<endl;
-//     str+="Fraz";
-//     cout<<str;
-//     return 0;
-// }
+    str+="Fraz";
+    cout<<str;
+    return 0;
+}
