@@ -13,12 +13,12 @@ int main(){
     // int res=first+last;
     // cout<<res;
 
-    int number;
-    cin>>number;
+//     int number;
+//     cin>>number;
 
-    string str=to_string(number);
-    int n=str.size();
-    int sum=str[0]-'0'+str[n-1]-'0';
-    cout<<sum;
-    return 0;
-}
+//     string str=to_string(number);
+//     int n=str.size();
+//     int sum=str[0]-'0'+str[n-1]-'0';
+//     cout<<sum;
+//     return 0;
+// }
